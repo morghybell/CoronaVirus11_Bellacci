@@ -19,6 +19,7 @@ namespace CoronaVirus1_Bellacci
     /// </summary>
     public partial class Grafico : Window
     {
+        //inizializzo la variabile
         string NomeFile;
 
         public Grafico()
@@ -28,6 +29,7 @@ namespace CoronaVirus1_Bellacci
 
         private void Btn_Mostra_Click(object sender, RoutedEventArgs e)
         {
+            //apro il documento excel con il grafico ottenuto dai dati letti direttamente dall'xml
             NomeFile = "C:\\Users\\Morgana\\Desktop\\CoronaVirus1_Bellacci\\CorVirus.xlsx";
             Microsoft.Office.Interop.Excel.Application xlApp = new Microsoft.Office.Interop.Excel.Application();
             Microsoft.Office.Interop.Excel.Workbook xlWorkbook;
