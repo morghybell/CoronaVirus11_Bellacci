@@ -1,0 +1,16 @@
+﻿<Window x:Class="CoronaVirus1_Bellacci.Grafico"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CoronaVirus1_Bellacci"
+        mc:Ignorable="d"
+        Title="Grafico" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="c.png"/>
+        </Grid.Background>
+        <Button x:Name="Btn_Mostra" Content="Mostra" HorizontalAlignment="Left" VerticalAlignment="Center" Height="143" Width="229" Background="{x:Null}" FontSize="72" FontFamily="Berlin Sans FB" BorderBrush="{x:Null}" Foreground="White" Margin="286,135,0,141" Click="Btn_Mostra_Click"/>
+
+    </Grid>
+</Window>
